@@ -1,0 +1,115 @@
+/* Style général */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f5f2;
+  color: #333;
+}
+
+/* En-tête */
+header {
+  text-align: center;
+  background: linear-gradient(135deg, #f76bb1, #f50374);
+  color: white;
+  padding: 40px 20px;
+}
+
+header .photo-profil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 15px;
+}
+
+header h1 {
+  margin: 10px 0 5px;
+  font-size: 2rem;
+}
+
+header p {
+  font-size: 1.1rem;
+}
+
+/* Sections */
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #f76bb1;
+  margin-bottom: 15px;
+}
+
+
+/* Section compétences */
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.skill span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Conteneur de la barre */
+.progress {
+  background: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 22px;
+  width: 100%;
+}
+
+/* Barre de progression */
+.progress-bar {
+  background: linear-gradient(135deg, #f76bb1, #f50374);
+  height: 100%;
+  color: white;
+  text-align: right;
+  padding-right: 8px;
+  font-size: 0.9rem;
+  line-height: 22px;
+  border-radius: 10px 0 0 10px;
+  transition: width 1s ease; /* Animation douce */
+}
+
+
+/* Formations en timeline */
+.timeline {
+  border-left: 3px solid #f76bb1;
+  padding-left: 20px;
+}
+
+.timeline .item {
+  margin-bottom: 20px;
+}
+
+.timeline h3 {
+  margin: 0;
+  color: #f76bb1;
+}
+
+/* Contact */
+.contact p {
+  font-size: 1.1rem;
+  margin: 8px 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #f76bb1;
+  color: white;
+  padding: 15px 0;
+  margin-top: 30px;
+}
